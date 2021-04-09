@@ -1,0 +1,44 @@
+.navbar {
+  width: 100% !important;
+  background-color: #52557e;
+  border: none;
+  border-radius: 0;
+  box-shadow: 0px 1px 1px 0px #31335c;
+  height: 42px !important;
+  min-height: 42px;
+  justify-content: space-between !important;
+
+  .navbar-collapse {
+    flex-grow: 0;
+  }
+
+  .navbar-brand {
+    padding-left: 38px;
+    font-weight: 400;
+
+    img {
+      padding-right: 16px;
+      width: 46px;
+      height: 20px;
+    }
+  }
+
+  form {
+    input,
+    .btn {
+      background-color: #5a5f89;
+      border-radius: 0;
+      height: 42px;
+      border: none;
+    }
+
+    input {
+      width: 336px;
+    }
+
+    .btn {
+      background-color: #aa8bdb;
+      width: 52px;
+    }
+  }
+}
